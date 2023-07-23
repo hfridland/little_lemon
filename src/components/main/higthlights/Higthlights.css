@@ -1,0 +1,5 @@
+.higthlights {
+    font-family: 'Karla', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
