@@ -4,6 +4,7 @@
     text-align: center;
     padding-left: 25%;
     padding-right: 25%;
+    margin-bottom: 0;
 }
 
 .heroGrid {
@@ -50,11 +51,16 @@
 
 .buttonRectGrid {
     grid-area: 4 / 1 / 5 / 2;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 
 .buttonRect a {
     text-decoration: none;
     color: #EDEFEE;
+    display: block;
+    margin: auto;
 }
 
 .imageGrid {
@@ -64,6 +70,7 @@
 @media (max-width: 700px) {
     .heroGrid {
         display: grid;
+        grid-template-columns: 100%;
     }
 
     .titleGrid { }
