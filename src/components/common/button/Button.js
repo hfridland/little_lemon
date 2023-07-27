@@ -2,7 +2,7 @@ import './Button.css'
 
 function Button(props) {
     return (
-        <div className='highlightsButton'>
+        <div data-testid='btnRes' className='highlightsButton'>
             <p>{props.caption}</p>
         </div>
     )

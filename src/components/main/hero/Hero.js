@@ -1,5 +1,7 @@
 import food from './restauranfood.jpg'
 import './Hero.css'
+import Button from '../../common/button/Button'
+import { Link } from "react-router-dom";
 
 function Hero() {
     return (
@@ -12,14 +14,19 @@ function Hero() {
                 sed do eiusmod tempor incididunt
                 ut labore et dolore magna aliqua.
             </div>
-            <div className="buttonRect buttonRectGrid">
-                <a href="" role="button">Reserve a Table</a>
-            </div>
+            <Link to='/booking'>
+                <Button caption='Reserve a Table' data-testid='btnRes' className="buttonRect buttonRectGrid" />
+            </Link>
             <div className='image imageGrid'>
             <img src={food} alt='Restaurant food' width={200} />
             </div>
         </section>
     )
 }
+
+{/* <div className="buttonRect buttonRectGrid">
+<a href="" role="button">Reserve a Table</a>
+</div> */}
+
 
 export default Hero

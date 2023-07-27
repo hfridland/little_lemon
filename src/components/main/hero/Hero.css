@@ -44,10 +44,10 @@
     grid-area: 3 / 1 / 4 / 2;
 }
 
-.buttonRect {
+/*.buttonRect {
     background-color: #F4CE14;
     border-radius: 25px;
-}
+}*/
 
 .buttonRectGrid {
     grid-area: 4 / 1 / 5 / 2;
