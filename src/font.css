@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'MarkaziRegular';
+    src: local('MarkaziRegular'),
+         url('./fonts/MarkaziText-Regular.ttf') format('truetype');
+  }
+
+@font-face {
+font-family: 'MarkaziBold';
+src: local('MarkaziBold'),
+     url('./fonts/MarkaziText-Bold.ttf') format('truetype');
+}
+
+@font-face {
+font-family: 'MarkaziMedium';
+src: local('MarkaziMedium'),
+     url('./fonts/MarkaziText-Medium.ttf') format('truetype');
+}
+
+@font-face {
+     font-family: 'MarkaziSemiBold';
+     src: local('MarkaziSemiBold'),
+          url('./fonts/MarkaziText-SemiBold.ttf') format('truetype');
+     }
+
+@font-face {
+     font-family: 'KarlaBold';
+     src: local('KarlaBold'),
+          url('./fonts/Karla-Bold.ttf') format('truetype');
+     }
+
+@font-face {
+     font-family: 'KarlaBoldItalic';
+     src: local('KarlaBoldItalic'),
+          url('./fonts/Karla-BoldItalic.ttf') format('truetype');
+     }
+
+@font-face {
+     font-family: 'KarlaExtraBold';
+     src: local('KarlaExtraBold'),
+          url('./fonts/Karla-ExtraBold.ttf') format('truetype');
+     }
+
+@font-face {
+     font-family: 'KarlaExtraBoldItalic';
+     src: local('KarlaExtraBoldItalic'),
+          url('./fonts/Karla-ExtraBoldItalic.ttf') format('truetype');
+     }
+
+@font-face {
+     font-family: 'KarlaExtraLight';
+     src: local('KarlaExtraLight'),
+          url('./fonts/Karla-ExtraLight.ttf') format('truetype');
+     }
+
+@font-face {
+     font-family: 'Karla-ExtraLightItalic';
+     src: local('Karla-ExtraLightItalic'),
+          url('./fonts/Karla-ExtraLightItalic.ttf') format('truetype');
+     }
+
+@font-face {
+     font-family: 'Karla-Italic';
+     src: local('Karla-Italic'),
+          url('./fonts/Karla-Italic.ttf') format('truetype');
+     }
+
+@font-face {
+     font-family: 'Karla-Light';
+     src: local('Karla-Light'),
+          url('./fonts/Karla-Light.ttf') format('truetype');
+     }
+
+@font-face {
+     font-family: 'KarlaLightItalic';
+     src: local('KarlaLightItalic'),
+          url('./fonts/Karla-LightItalic.ttf') format('truetype');
+     }
+
+@font-face {
+     font-family: 'KarlaMedium';
+     src: local('KarlaMedium'),
+          url('./fonts/Karla-Medium.ttf') format('truetype');
+     }
+
+@font-face {
+     font-family: 'KarlaMediumItalic';
+     src: local('KarlaMediumItalic'),
+          url('./fonts/Karla-MediumItalic.ttf') format('truetype');
+     }
+
+@font-face {
+     font-family: 'KarlaRegular';
+     src: local('KarlaRegular'),
+          url('./fonts/Karla-Regular.ttf') format('truetype');
+     }
+
+@font-face {
+     font-family: 'KarlaSemiBold';
+     src: local('KarlaSemiBold'),
+          url('./fonts/Karla-SemiBold.ttf') format('truetype');
+     }
+
+@font-face {
+     font-family: 'KarlaSemiBoldItalic';
+     src: local('KarlaSemiBoldItalic'),
+          url('./fonts/Karla-SemiBoldItalic.ttf') format('truetype');
+     }

@@ -1,7 +1,7 @@
 .fooditem {
     display: flex;
     flex-direction: column;
-    font-family: 'Markazi', sans-serif;
+    font-family: 'MarkaziRegular', sans-serif;
 }
 
 .fooditem img {

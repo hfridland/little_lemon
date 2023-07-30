@@ -6,18 +6,24 @@ const seededRandom = seed => {
 };
 
 const fetchAPI = date => {
-    let result = [];
-    let random = seededRandom(date.getDate());
-    for(let i = 17; i <= 23; i++) {
-      if(random() < 0.5) result.push(i + ':00');
-      if(random() >= 0.5) result.push(i + ':30');
-    }
-    return result;
-};
+    return new Promise((resolve, reject) => {
+        let result = [];
+        let random = seededRandom(date.getDate());
+        for(let i = 17; i <= 23; i++) {
+          if(random() < 0.5) result.push(i + ':00');
+          if(random() >= 0.5) result.push(i + ':30');
+        }
+        resolve(JSON.stringify(result))
+    })
+}
 
-const submitAPI = formData => true;
+const submitAPI = formData => {
+    return new Promise((resolve, reject) => {
+        resolve(JSON.stringify(true))
+    })
+}
 
 export {
     fetchAPI,
     submitAPI
-};
+}

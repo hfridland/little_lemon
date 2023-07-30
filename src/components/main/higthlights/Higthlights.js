@@ -27,7 +27,7 @@ function Higthlights() {
         foodDescr: "This comes straight from grandma’s recipe book, every last ingredient has been sourced and is as authentic as can be imagined."
     }]
     return (
-        <main className="higthlights higthlightsFlex">
+        <section className="higthlights higthlightsFlex">
             <div className='row'>
                 <div className='spec'>Specials</div>
                 <Button caption='Online Menu' />
@@ -36,7 +36,7 @@ function Higthlights() {
                 {foodItems.map(foodItem => 
                     <Fooditem img={foodItem.img} imgAlt={foodItem.imgAlt} foodName={foodItem.foodName} foodPrice={foodItem.foodPrice} foodDescr ={foodItem.foodDescr} />)}
             </div>
-        </main>
+        </section>
     )
 }
 

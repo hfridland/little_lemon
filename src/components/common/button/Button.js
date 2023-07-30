@@ -1,8 +1,7 @@
-import './Button.css'
 
 function Button(props) {
     return (
-        <div data-testid='btnRes' className='highlightsButton'>
+        <div className='button'>
             <p>{props.caption}</p>
         </div>
     )
